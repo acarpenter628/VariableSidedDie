@@ -1,0 +1,27 @@
+BOM for the Arduino based prototype.
+Note that I started this 5 years ago so some parts are no longer available.  But since this is a prototype for me, not a side hustle (yet?), that's fine.  If you're trying to recreate this, you'll have to do some more legwork, but I imagine the fine folks at Adafruit have made their software drivers fairly backwards compatible.
+
+Mechanical:
+TBD
+Maybe some plexiglass to make a cube.  The top face clear, the others probably spray painted black.
+
+
+MCU:
+Arduino Uno R3
+Longer term, probably whatever the cheapest ST is that has SPI and I2C
+
+
+Power:
+Right now all of the parts are 5V compatible so I'm just powering it from the 5V output from the Arduino board.  Longer term it would have a LiPo and a charging IC and a single LDO to power everything
+
+
+Input:
+Freescale MMA8451 Arduino breakout from Adafruit.  https://www.adafruit.com/product/2019
+Longer term, Bosch probably has cheaper accelerometers, and all I'm using it for is tap detection
+
+Momentary push button, just a normal, low current button
+
+
+Display:
+"Adafruit 1.44" Color TFT with Micro SD Socket"  https://www.adafruit.com/product/2088
+Displays are a thing that I've used before, but admittedly don't have a ton of low-level knowledge about.  If I were to do this at high volume, there would be some research involved here.
