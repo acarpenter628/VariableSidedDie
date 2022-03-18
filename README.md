@@ -1,7 +1,7 @@
 # VariableSidedDie
 Arduino based dice simulator
 
-This project is an electrical replacement for the various dice used in TTRPGs (Dungeons and Dragons, etc).  
+This project is an electrical replacement for the various dice used in TTRPGs (Dungeons and Dragons, etc).  This now makes 3/4 of my GitHub DnD related even though I'm not really that into it anymore, but it was a very DIY heavy hobby, so that makes sense.
 
 This was a project I started roughly five years ago and cleaned up recently so that my GitHub would have things on it.  Right now this is just an Arduino breadboard project - I originally lost interest when I had to start thinking about mechanics.  Maybe someday it could be a kickstarter project, but DnD has been cool for years now and I probably waited too long to cash in.
 
